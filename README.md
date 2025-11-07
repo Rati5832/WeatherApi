@@ -19,7 +19,7 @@ Fetches current weather for a supported city.
 ## Example:
 GET https://localhost:7120/api/weather/Tbilisi
 
-#Response (200 OK):
+Response (200 OK):
 
 {
   "city": "Tbilisi",
@@ -27,7 +27,9 @@ GET https://localhost:7120/api/weather/Tbilisi
   "windSpeed": 3.6
 }
 
-#Response (404 Not Found):
+Response (404 Not Found):
+
+
 { "message": "Invalid city name: London. Available city weathers are for: Tbilisi, Berlin, Paris" }
 
 
