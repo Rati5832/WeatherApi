@@ -17,7 +17,7 @@ Built to demonstrate **external API integration**, **dependency injection**, **D
 Fetches current weather for a supported city.
 
 ## Example:
-GET https://localhost:7120/api/weather/Tbilisi
+GET https://localhost:{PORT}/api/weather/Tbilisi
 
 Response (200 OK):
 
@@ -44,4 +44,4 @@ dotnet restore
 dotnet run --project Weather.Api
 
 # Then open your browser at
-https://localhost:7120/swagger
+https://localhost:{PORT}/swagger
